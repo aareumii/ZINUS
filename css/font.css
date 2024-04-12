@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+@font-face {
+	font-family: 'proxima nova';
+	src: url('../font/Mark Simonson - Proxima Nova Alt Regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: berlingske;
+	src: url('../font/BerlingskeSerifTx-DBd.woff')format('woff');
+	font-weight: bold;
+	font-style: normal;
+}
+body {
+	font-family: 'proxima nova','Noto Sans KR', sans-serif;
+	font-size: 14px;
+	color: #003628;
+}
+a {
+	color: #003628;
+}
+.tit {
+	font-family: 'berlingske', serif;
+}
